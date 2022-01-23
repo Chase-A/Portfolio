@@ -1,4 +1,96 @@
-body{
-    color: white;
-    background-color: darkslategray;
+:root{
+    --dark-clr: #25252F;
+    --light-clr: #fff;
+
+    --ff: Poppins;
 }
+
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+
+    color: var(--light-clr);
+    background-color: var(--dark-clr);
+    font-family: var(--ff);
+
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+
+.card{
+    width: 16.5rem;
+    position: relative;
+    background: gray;
+    margin: 1em;
+    padding: 1.25em;
+    border-radius: 13px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    background: linear-gradient(155.6deg, rgba(255, 255, 255, 0.24) 0%, rgba(196, 196, 196, 0.06) 100%);
+    backdrop-filter: blur(15px);
+    padding-bottom: 50px;
+}
+
+.number{
+    position: absolute;
+    top: -113px;
+    right: 30px;
+    font-size: 128px;
+    z-index: -1;
+    opacity: .05;
+}
+
+.title{
+    margin-top: 4.875rem;
+    /* font-size: 28px; */
+}
+
+.bg-svg{
+    position: fixed;
+    z-index: -10;
+}
+
+.button{
+    background: var(--light-clr);
+    color: var(--dark-clr);
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    
+}
+
+.card p{
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 88%;
+    /* line-height: 24px; */
+    
+}
+
+.icon-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: linear-gradient(155.6deg, rgba(255, 255, 255, 0.24) 0%, rgba(196, 196, 196, 0.06) 100%);
+    backdrop-filter: blur(15px);
+    margin-top: 30px;
+}
+
+.icon{
+    color: #fff;
+    font-size: 50px;
+    /* border: 1px solid red; */
+    height: 58px;
+}
+
+
+/* https://stackoverflow.com/questions/5643254/how-to-scale-svg-image-to-fill-browser-window */
+.bg-svg { position:fixed; top:0; left:0; height:100%; width:100% }
