@@ -15,7 +15,7 @@ function alignShapes(){
 // circle.setAttribute("cx", "150")
 
 
-// keeps shapes locked
+// keeps shapes locked on desktop
 if (vw > 800){
     window.onresize = function(){ location.reload(); }
 }
