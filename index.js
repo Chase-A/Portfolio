@@ -16,6 +16,6 @@ function alignShapes(){
 
 
 // keeps shapes locked on desktop
-if (vw > 800){
+if (vw > 600){
     window.onresize = function(){ location.reload(); }
 }
