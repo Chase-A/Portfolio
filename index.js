@@ -16,4 +16,6 @@ function alignShapes(){
 
 
 // keeps shapes locked
-// window.onresize = function(){ location.reload(); }
+if (vw > 800){
+    window.onresize = function(){ location.reload(); }
+}
