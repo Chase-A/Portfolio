@@ -12,11 +12,9 @@ function alignShapes(){
     greenCircle.setAttribute("cx", centerLine-205)
 }
 
-// circle.setAttribute("cx", "150")
 
 
 // keeps shapes locked on desktop
-
 function handleResize(){
     if (vw > 600){
         location.reload();
