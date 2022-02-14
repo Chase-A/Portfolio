@@ -2,7 +2,7 @@
     --dark-clr: #25252F;
     --light-clr: #fff;
 
-    --ff: Poppins;
+    --ff: Poppins, sans-serif;
 }
 
 
@@ -39,13 +39,22 @@ body{
     padding-bottom: 50px;
 }
 
-.number{
+.number, .in-progress{
     position: absolute;
+    z-index: -1;
+}
+
+.number{
     top: -113px;
     right: 30px;
     font-size: 128px;
-    z-index: -1;
     opacity: .05;
+}
+
+.in-progress{
+    top: 10px;
+    left: 27px;
+    opacity: .25;
 }
 
 .title{
