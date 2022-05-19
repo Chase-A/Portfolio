@@ -71,9 +71,15 @@
     width: 32.2%;
 }
 
+/* Sections */
 
+.sec{
+    display: none;
+}
 
-
+.current-sec{
+    display: initial;
+}
 
 @media (min-width: 550px){
     .centered{

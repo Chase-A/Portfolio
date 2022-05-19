@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -20,36 +22,36 @@
             </div>
         </div>
         <ul class="tabs">
-            <li class="top selected">Featured Projects</li>
-            <li class="top">About Me</li>
-            <li class="bottom">Education</li>
-            <li class="bottom">Experience</li>
-            <li class="bottom">Skills</li>
+            <li class="tab top selected" id="tab0">Featured Projects</li>
+            <li class="tab top" id="tab1">About Me</li>
+            <li class="tab bottom" id="tab2">Education</li>
+            <li class="tab bottom" id="tab3">Experience</li>
+            <li class="tab bottom" id="tab4">Skills</li>
         </ul>
     </header>
     
     <main>
-        <section class="featured-projects current-tab">
+        <section id="sec0" class="sec current-sec">
             <h1>Featured Projects</h1>
 
         </section>
 
-        <section class="about-me">
+        <section id="sec1" class="sec">
             <h1>About Me</h1>
 
         </section>
 
-        <section class="education">
+        <section id="sec2" class="sec">
             <h1>Education</h1>
 
         </section>
 
-        <section class="experience">
+        <section id="sec3" class="sec">
             <h1>Experience</h1>
 
         </section>
 
-        <section class="skills">
+        <section id="sec4" class="sec">
             <h1>Skills</h1>
 
         </section>
@@ -59,5 +61,5 @@
 
     </main>
 
-
+    <script src="index.js"></script>
 </body>
