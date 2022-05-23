@@ -27,15 +27,17 @@ html {
 
 .header-container{
     display: flex;
+    /* align-items: stretch; */
     /* justify-content: space-between; */
 }
 
 .text-container{
-    border: 5px solid var(--dark-clr);
+    border: 6px solid var(--dark-clr);
     border-left: 0px;
     border-right: 0px;
 
     margin-left: 17px;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
@@ -111,7 +113,9 @@ html {
 
 /* Sections */
 
-
+.about-me{
+    font-size: 20px;
+}
 
 .sec{
     display: none;
@@ -126,11 +130,6 @@ html {
     display: initial;
 }
 
-@media (min-width: 550px){
-    .centered{
-        margin: 14px auto;
-    }
-}
 
 .sec ul{
     list-style-type: '- ';
@@ -201,3 +200,77 @@ img{
 .img-border{
     border: 3px solid var(--dark-clr)
 }
+
+/* Desktop */
+
+@media (min-width: 650px){
+    
+    /* Header */
+    .text-container{
+        flex-direction: row;
+    }
+
+    .name{
+        font-size: 44px;
+        margin-top: 17px;
+    }
+
+    .name-subtitle{
+        font-size: 18px;
+        margin-top: 24px;
+    }
+
+    .contact-info{
+        text-align: right;
+        font-size: 11px;
+        line-height: 23px;
+        margin-top: 28px;
+    }
+    
+    /* Body */
+    
+    .flex-body{
+        display: flex;
+    }
+    .tabs{
+        flex-direction: column;
+        justify-content: start;
+        flex-wrap: initial;
+        width: 170px;
+
+        /* border: 1px solid salmon; */
+    }
+    .top, .bottom{
+        width: auto;
+    }
+
+    .centered{
+        margin: 20px auto;
+        max-width: 584.25px;
+    }
+
+    .centered-bottom{
+        max-width: 710px;
+    }
+
+    .projects{
+        margin-left: 17px;
+        /* border: 1px solid fuchsia; */
+        width: 460px;
+    }
+
+    .first{
+        margin-top: 20px !important;
+    }
+
+    .sec-top{
+        margin-top: 22px;
+    }
+
+    .pages-centered{
+        max-width: 460px;
+        margin: 20px auto;
+    }
+
+}
+    
