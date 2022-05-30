@@ -273,4 +273,9 @@ img{
     }
 
 }
-    
+
+@media (max-width: 650px) {
+    .first{
+        margin-top: 22px !important;
+    }
+}
