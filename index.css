@@ -168,6 +168,10 @@ html {
     background-color: #262626;
 }
 
+.bottom-links{
+    margin: 42px auto 10px auto;
+}
+
 /* Case Study Pages */
 
 .project h1{
