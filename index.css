@@ -132,7 +132,7 @@ html {
 
 
 .sec ul{
-    list-style-type: '- ';
+    /* list-style-type: '- '; */
 }
 
 
@@ -197,12 +197,16 @@ html {
 
 img{
     max-width: 100%;
-    border: 3px solid var(--dark-clr)
+    border: 3px solid var(--dark-clr);
 
 }
 
 .img-border{
-    border: 3px solid var(--dark-clr)
+    border: 3px solid var(--dark-clr);
+}
+
+.portrait{
+    border: none;
 }
 
 /* Desktop */
@@ -282,4 +286,12 @@ img{
     .first{
         margin-top: 22px !important;
     }
+}
+
+.exp-p{
+    margin-bottom: 0 !important;
+}
+
+.exp-h{
+    margin-top: 16px;
 }
