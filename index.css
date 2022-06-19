@@ -304,3 +304,7 @@ img{
 .about-me-header{
     margin-top: 22px !important;
 }
+
+.about-me-pic{
+    max-width: 270px;
+}
