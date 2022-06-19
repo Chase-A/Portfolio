@@ -280,6 +280,7 @@ img{
         margin: 20px auto;
     }
 
+
 }
 
 @media (max-width: 650px) {
@@ -294,4 +295,12 @@ img{
 
 .exp-h{
     margin-top: 16px;
+}
+
+.about-me-list{
+    margin-bottom: 22px;
+}
+
+.about-me-header{
+    margin-top: 22px !important;
 }
